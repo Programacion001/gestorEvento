@@ -10,9 +10,12 @@ private int _Id;
 private String _nombre;
 private Date _fecha;
 private int _cantidadPersona;
-static SimpleDateFormat formato = new SimpleDateFormat("dd-MM-yyyy");
 
 public PersonaEventoVO(){} 
+
+    public PersonaEventoVO(int idevento, String nombre, int tipoevento, Date fecha, int cantidad) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     public int getId() {
         return _Id;
