@@ -1,0 +1,45 @@
+insert into asisten (id_evento,id_invitado,Status) values ('145','156','Presente');
+
+
+insert into asisten (id_evento,id_invitado,Status) values ('145','157','Ausente');
+
+insert into asisten (id_evento,id_invitado,Status) values ('146','159','Presente');
+
+insert into asisten (id_evento,id_invitado,Status) values ('146','160','Presente');
+
+insert into asisten (id_evento,id_invitado,Status) values ('146','158','Presente');
+
+insert into asisten (id_evento,id_invitado,Status) values ('146','161','Ausente');
+
+
+insert into invitados (id_invitados,Apellido,Sexo,Direccion,Nombre,Email,Telefono) values ('156','Soto','M','cefiro 3','Freddy','fredds@hotmail','8095322534');
+4
+insert into invitados (id_invitados,Apellido,Sexo,Direccion,Nombre,Email,Telefono) values ('158','Soto','M','cefiro 3','Carlos','fredds@hotmail','8095322534');
+
+insert into invitados (id_invitados,Apellido,Sexo,Direccion,Nombre,Email,Telefono) values ('159','Soto','F','cefiro 3','Maria','fredds@hotmail','8095322534');
+
+insert into invitados (id_invitados,Apellido,Sexo,Direccion,Nombre,Email,Telefono) values ('160','Soto','F','cefiro 3','Carla','fredds@hotmail','8095322534');
+
+insert into invitados (id_invitados,Apellido,Sexo,Direccion,Nombre,Email,Telefono) values ('161','Soto','F','cefiro 3','Juana','fredds@hotmail','8095322534');
+
+insert into invitados (id_invitados,Apellido,Sexo,Direccion,Nombre,Email,Telefono) values ('162','Soto','F','cefiro 3','liliana','fredds@hotmail','8095322534');
+
+
+
+select E.id_evento, E.Nombre,E.Tipo_Evento, E.Fecha, Count(I.id_evento)'Cantidad' from asisten I 
+inner join evento E on I.id_evento  = E.id_evento
+where I.status = 'Presente'
+Group by I.id_evento;
+
+insert into evento (id_evento,Ubicacion,Fecha,Nombre,Status,Tipo_Evento,id_Usuario) values('146','SDO','2000-02-18','Conferencia HUAWEI','Proximamente','123','1');
+insert into evento (id_evento,Ubicacion,Fecha,Nombre,Status,Tipo_Evento,id_Usuario) values('145','SDO','2000-02-18','Freddy','Proximamente','123','1');
+
+
+
+insert tipo_evento (id_Tipo,Tipo) values ('123','gala');
+
+select E.id_evento, E.Nombre,E.Tipo_Evento, E.Fecha,count(case when inv.sexo = 'F' then 1 else null end) Mujeres,
+count(case when inv.sexo = 'M' then 1 else null end) Hombres from asisten I left join 
+invitados inv on inv.id_invitados = i.id_invitado inner join evento E on e.id_evento = i.id_evento
+group by i.id_evento limit 
+

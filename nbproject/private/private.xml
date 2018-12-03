@@ -2,18 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/controlador/CoordTipoEvento.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/modelo/VO/TipoEventoVO.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/gestorevento/Main.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/modelo/DAO/TipoEventoDAO.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/modelo/Logica/LogicaTipoEvento.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/vistas/IGCrearEvento.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/vistas/IGListaInvitado.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/vistas/PanelControl.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/modelo/DAO/UsuarioDAO.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/modelo/conexion/Conexion.java</file>
-            <file>file:/C:/Users/DELL/Desktop/Programacion/Unidad%204%20Proyecto%20final/MVC,%20DAO,%20DTO/GestorEvento/src/modelo/DAO/InvitadoDAO.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

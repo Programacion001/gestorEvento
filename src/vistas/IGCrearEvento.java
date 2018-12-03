@@ -1,4 +1,3 @@
-﻿
 package vistas;
 
 import controlador.CoordTipoEvento;
@@ -349,5 +348,3 @@ public class IGCrearEvento extends javax.swing.JPanel {
     // End of variables declaration//GEN-END:variables
 }
 
-                       
-   

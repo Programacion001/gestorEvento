@@ -10,12 +10,15 @@ private int _Id;
 private String _nombre;
 private Date _fecha;
 private int _cantidadPersona;
-
+private int _tipo;
 public PersonaEventoVO(){} 
-
-    public PersonaEventoVO(int idevento, String nombre, int tipoevento, Date fecha, int cantidad) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+public PersonaEventoVO(int idevento,String nombre,int tipoevento, Date fecha,int cantidad){
+    this._Id = idevento;
+    this._nombre = nombre;
+    this._fecha = fecha;
+    this._tipo = tipoevento;
+    this._cantidadPersona = cantidad;
+}
 
     public int getId() {
         return _Id;
